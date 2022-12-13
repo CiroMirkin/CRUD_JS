@@ -2,13 +2,11 @@ body {
   display: grid;
   place-items: center;
 }
-
 .content {
   --borderColor: #000;
   max-width: 80%;
   margin: 2.5vw;
   padding: 1.5vw;
-
   border: var(--borderColor) 1px solid;
 }
 .content__input-content {
@@ -18,28 +16,22 @@ input {
   margin-right: 5px;
   border: var(--borderColor) 1px solid;
 }
-
 input:focus {
   outline: #00000025 2px solid;
 }
-
 button {
   border: var(--borderColor) 1px solid;
 }
-
 ul {
   list-style: upper-roman;
 }
-
 li {
   width: 100%;
 }
-
 li span{
   font-size: 2ch;
   margin-inline: 10px;
 }
-
 li button {
   min-width: 3rem;
   display: inline-block;
