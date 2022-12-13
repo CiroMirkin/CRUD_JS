@@ -11,9 +11,11 @@ body {
 
   border: var(--borderColor) 1px solid;
 }
-
+.content__input-content {
+  display: flex;
+}
 input {
-  width: calc(80% - 1.5vw);
+  margin-right: 5px;
   border: var(--borderColor) 1px solid;
 }
 
@@ -22,7 +24,6 @@ input:focus {
 }
 
 button {
-  width: calc(20% - 1.5vw);
   border: var(--borderColor) 1px solid;
 }
 
